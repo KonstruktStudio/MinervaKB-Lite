@@ -1,0 +1,36 @@
+/**
+ * Plugins settings page styles
+ */
+
+#mkb-plugin-settings-save,
+#mkb-plugin-settings-reset {
+  float: right;
+  margin-left: 0.7em;
+}
+
+#mkb-plugin-settings {
+  position: relative;
+  padding-left: 10em;
+}
+
+.mkb-plugin-settings-preloader {
+  display: none;
+  background: #fff;
+  position: relative;
+  width: 962px;
+  height: 100px;
+
+  .mkb-loader {
+    top: 40px;
+  }
+}
+
+.mkb-loading {
+  .mkb-settings-content-holder {
+    display: none;
+  }
+
+  .mkb-plugin-settings-preloader {
+    display: block;
+  }
+}

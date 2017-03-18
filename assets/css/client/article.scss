@@ -1,0 +1,35 @@
+/**
+ * Article
+ */
+
+.mkb-article-header,
+.mkb-article-extra {
+  margin: 1em 0;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.mkb-article-extra__tags,
+.mkb-article-item__tags {
+  margin-bottom: 1em;
+
+  i.fa {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    vertical-align: middle;
+  }
+
+  a,
+  span.mkb-tag-nolink {
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-right: 0.3em;
+    color: inherit;
+
+    &:first-of-type {
+      margin-left: 0.3em;
+    }
+  }
+}

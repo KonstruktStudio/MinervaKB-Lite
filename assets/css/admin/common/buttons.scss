@@ -1,0 +1,47 @@
+/**
+ * Admin pages buttons
+ */
+
+.mkb-action-button {
+  display: inline-block;
+  padding: 0.8em 1em;
+  background: $wp-blue;
+  color: #fff;
+  border-radius: 0.3em;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+  transition: all 100ms linear;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none;
+    background: $wp-blue;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &.mkb-action-danger {
+    background: $danger;
+  }
+
+  &.mkb-disabled {
+    opacity: 0.7;
+  }
+
+  &.mkb-success {
+    background: $success;
+  }
+}
+
+.mkb-button {
+  display: inline-block;
+  padding: 0.6em 0.8em;
+  background: $wp-blue;
+  color: #fff;
+  border-radius: 0.3em;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+  transition: all 100ms linear;
+}

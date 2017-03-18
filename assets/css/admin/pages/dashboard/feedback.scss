@@ -1,0 +1,45 @@
+/**
+ * Dashboard feedback
+ */
+
+.mkb-dashboard__feedback {
+  background: #fff;
+  margin-right: 0.8em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+}
+
+table.mkb-dashboard__feedback-table {
+  width: 100%;
+  text-align: left;
+
+  th {
+    padding: 0.5em 1em;
+    background: #f8f8f8;
+  }
+
+  .mkb-dashboard__feedback-item-row {
+    td {
+      padding: 1em;
+
+      &.mkb-dashboard__feedback-item-content {
+        width: 60%;
+      }
+    }
+
+    &:nth-child(odd) {
+      background: #f8f8f8;
+    }
+
+    &--removing {
+      opacity: 0.5;
+
+      .mkb-dashboard__feedback-remove-item-link {
+        display: none;
+      }
+    }
+  }
+}
+
+.mkb-dashboard__feedback-remove-item-link {
+  color: $danger;
+}

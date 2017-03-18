@@ -1,0 +1,49 @@
+/**
+ * Client common styles
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.mkb-root {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.8em;
+    padding: 0;
+  }
+}
+
+.mkb-container {
+  padding: 0 2em;
+  margin: 0 auto;
+  width: 1180px;
+  max-width: 100%;
+}
+
+.mkb-clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.mkb-shortcode-container {
+  font-size: 15px;
+  color: #333;
+  font-weight: 300;
+}
+
+.mkb-section-title {
+  text-align: center;
+}

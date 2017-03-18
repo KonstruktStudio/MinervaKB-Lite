@@ -1,0 +1,77 @@
+/**
+ * Preloader
+ */
+
+$size: 1em;
+$duration: 0.75s;
+$border-radius: $size;
+$bg-color: lightgray;
+
+.mkb-loader{
+  display:block;
+  width: 4 * $size;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+@keyframes rotate{
+  0%{
+    transform: translateY(0%);
+  }
+  30%{
+    transform: translateY(-$size/4);
+  }
+  50%{
+    transform: translateY(0%);
+  }
+  70%{
+    transform: translateY($size/4);
+  }
+}
+
+@-webkit-keyframes rotate{
+  0%{
+    -webkit-transform: translateY(0%);
+  }
+  30%{
+    -webkit-transform: translateY(-$size/4);
+  }
+  50%{
+    -webkit-transform: translateY(0%);
+  }
+  70%{
+    -webkit-transform: translateY($size/4);
+  }
+}
+
+.mkb-loader{
+  display:block;
+
+  .inner1, .inner2, .inner3{
+    display: inline-block;
+
+    margin: $size*0.125;
+    width: $size/2;
+    height:$size/2;
+
+    border:1px solid $bg-color;
+    border-radius: $border-radius;
+    background-color: $bg-color;
+
+    transform-origin: 50%;
+    animation-duration: $duration;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .inner2{
+    animation-delay: $duration*0.25;
+  }
+
+  .inner3{
+    animation-delay: $duration*0.5;
+  }
+}

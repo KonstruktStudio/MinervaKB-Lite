@@ -1,0 +1,151 @@
+/**
+ * Topics
+ */
+.kb-topic {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+
+  a {
+    color: #888;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .kb-topic__inner {
+    background: #fff;
+    padding: 1.5em 1.3em;
+
+    .kb-topic__title {
+      font-weight: 600;
+      margin-top: 0em;
+      margin-bottom: 1em;
+      font-size: 1.5em;
+      line-height: 1.3em;
+    }
+  }
+
+  .kb-topic__box-header {
+    .kb-topic__title {
+      margin-bottom: 0;
+    }
+  }
+
+  &.kb-topic--box-view {
+    .kb-topic__inner {
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      transition: all 0.12s ease-in;
+
+      &:hover {
+        background: #f8f8f8;
+        border-color: #f8f8f8;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+
+  .kb-topic__articles {
+    margin-top: 1em;
+  }
+
+  .kb-topic__box-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .kb-topic__icon-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .mkb-columns-2 & {
+    width: 49%;
+  }
+
+  .mkb-columns-3 & {
+    width: 32.5%;
+  }
+
+  .mkb-columns-4 & {
+    width: 24%;
+  }
+
+  .kb-topic__box-count {
+    color: #aaa;
+    font-size: 0.9em;
+  }
+
+  .kb-topic__show-all {
+    margin-top: 0;
+    display: inline-block;
+    color: #bbb;
+  }
+
+  .kb-topic__articles {
+    li {
+      position: relative;
+      margin: 0 0 0.3em;
+      line-height: 1.7em;
+
+      a {
+        display: inline-block;
+      }
+
+      .kb-topic__list-article-icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 1em;
+      }
+
+      .kb-topic__list-article-title {
+
+        line-height: 1.3em;
+        vertical-align: top;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.kb-topic__articles {
+  &.kb-topic__articles--with-icons
+  li {
+    .kb-topic__list-article-title {
+      padding-left: 1.3em;
+    }
+  }
+}
+
+.mkb-columns {
+  font-size: 0; /* inline-block fix */
+
+  > * {
+    font-size: 15px;
+  }
+}
+
+.kb-topic--box-view {
+  text-align: center;
+}
+
+.kb-topic__count {
+  color: #fff;
+  background: #4a90e2;
+  font-size: .6em;
+  line-height: .8em;
+  padding: .3em .5em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: .3em;
+  margin-left: .5em;
+}
+
+.kb-topic__articles {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}

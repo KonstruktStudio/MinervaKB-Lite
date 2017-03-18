@@ -1,0 +1,42 @@
+/**
+ * Search themes
+ */
+.kb-search__input-wrap {
+  max-width: 100%;
+
+  .kb-search__input {
+    font-size: 15px; /* overrides any theme defaults */
+    font-weight: 400;
+    padding: 0 2em;
+    position: relative;
+    z-index: 1;
+    outline: none;
+    max-width: 100%;
+    width: 100%;
+    background: #fff;
+
+    &:disabled {
+      color: #aaa;
+      opacity: 1;
+      background: #f7f7f7;
+    }
+  }
+
+  &.mkb-search-theme__minerva {
+    border-radius: 35px;
+
+    &.kb-search__input-wrap--icons-left {
+      .kb-search__input {
+        padding-left: 3.2em;
+      }
+    }
+
+    .kb-search__input {
+      height: 70px;
+      border-radius: 35px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.12);
+      transition: color 150ms ease-in-out;
+    }
+  }
+}

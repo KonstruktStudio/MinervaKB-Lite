@@ -1,0 +1,80 @@
+/**
+ * Dashboard common styles
+ */
+
+#mkb-dashboard {
+  margin-right: 1.4em;
+  max-width: 98em;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+ul.mkb-dashboard__tabs-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0.8em 2em 0;
+  background: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+
+  li {
+    display: inline-block;
+    margin: 0;
+
+    .mkb-dashboard__tabs-list-item {
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 1em;
+      display: inline-block;
+      outline: none;
+      box-shadow: none;
+
+      &--active {
+        font-weight: 600;
+        color: #555;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.mkb-dashboard-page {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.mkb-dashboard-pagination {
+  ul {
+    padding: 0 0 2em;
+    list-style-type: none;
+    margin: 2em 0 0 1em;
+
+    li {
+      display: inline-block;
+      margin: 0 0.3em;
+
+      .mkb-pagination-item {
+        display: inline-block;
+        padding: 1em;
+        font-size: 1em;
+        line-height: 1em;
+        background: #f8f8f8;
+
+        &--active {
+          font-weight: 600;
+          color: #333;
+          cursor: default;
+        }
+      }
+    }
+  }
+}
+
+.mkb-data-loading {
+  opacity: 0.5;
+}

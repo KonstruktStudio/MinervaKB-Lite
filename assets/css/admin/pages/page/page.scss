@@ -1,0 +1,193 @@
+/**
+ * Page and page builder
+ */
+
+/**
+ * Page options
+ */
+.mkb-page-settings-container {
+  padding: 0;
+}
+
+.mkb-page-switch-settings-container {
+  padding: 1em 0 0;
+}
+
+.mkb-page-settings-off-message {
+  color: #888;
+}
+
+/**
+ * Layout editor
+ */
+.mkb-layout-editor__sections {
+  background: #ccc;
+  padding: 1em;
+  border-radius: 8px;
+  min-height: 3em;
+  margin: 2em 0;
+  box-shadow: inset 1px 1px 1px rgba(0,0,0,0.20);
+}
+
+.mkb-layout-editor__actions {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.mkb-layout-editor__section-title {
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.mkb-layout-editor__section-toolbar {
+  position: absolute;
+  top: 1.1em;
+  right: 1.1em;
+
+  a {
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+}
+
+.mkb-layout-editor__section-settings-open {
+  display: inline-block;
+  padding: 0.3em;
+  border-radius: 3px;
+
+  &.mkb-pressed {
+    background: #ccc;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15)
+  }
+}
+
+.mkb-layout-editor__section {
+  position: relative;
+  padding: 1.2em 1.2em 1.2em 4.2em;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 0.6em;
+  min-height: 2em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+  &.mkb-section-loading {
+    opacity: 0.7;
+  }
+
+  .mkb-layout-editor__section-handle {
+    position: absolute;
+    border-radius: 3px;
+    left: 3px;
+    top: 3px;
+    bottom: 3px;
+    height: calc(100% - 6px);
+    margin: auto;
+    display: inline-block;
+    width: 2em;
+    cursor: move;
+    background: #ccc;
+    z-index: 2;
+  }
+
+  .mkb-layout-editor__section-handle,
+  .mkb-layout-editor__section-title,
+  .mkb-layout-editor__section-toolbar {
+    font-size: 1.2em;
+  }
+}
+
+.mkb-layout-editor__add-new {
+  position: relative;
+  cursor: pointer;
+
+  &.add-new--open {
+    .mkb-layout-editor__add-new-list {
+      display: block;
+    }
+
+    &:after {
+      border-radius: 3px;
+      display: block;
+      content: '';
+      background: rgba(0,0,0,0.15);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .mkb-layout-editor__add-new-list {
+    display: none;
+    position: absolute;
+    background: inherit;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    bottom: 4em;
+    left: 0;
+    right: 0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.20);
+    z-index: 10;
+
+    li {
+      position: relative;
+      z-index: 2;
+      border-bottom: 1px solid rgba(0,0,0,0.22);
+      margin: 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      a {
+        color: #fff;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        display: block;
+        padding: 0.6em;
+        text-decoration: none;
+        transition: background-color 120ms ease-in;
+
+        &:hover {
+          background-color: rgba(255,255,255,0.1);
+        }
+      }
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      display: block;
+      background: inherit;
+      width: 18px;
+      height: 18px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -9px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+#mkb-page-meta-box-id {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.mkb-section-settings-container {
+  padding: 1.5em 0;
+}
+
+#mkb-page-settings {
+  .mkb-plugin-settings-preloader {
+    width: 100%;
+  }
+}

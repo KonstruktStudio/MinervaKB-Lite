@@ -1,0 +1,83 @@
+/**
+ * Admin pages header style
+ */
+.mkb-admin-page-header {
+  padding: 2em;
+  height: 3em;
+  background: #fff;
+  margin-top: 1.2em;
+  margin-bottom: 3em;
+  margin-right: 1.2em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+
+  &:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: -10px;
+    width: 10px;
+    content: '';
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  &.mkb-fixed {
+    padding: 1em;
+    height: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    top: 32px;
+    left: 160px;
+    width: calc(100% - 160px - 2em);
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.22);
+  }
+}
+
+#mkb-plugin-settings {
+  body.mkb-header-fixed & {
+    margin-top: calc(7.2em + 54px);
+  }
+}
+
+.mkb-header-item {
+  display: inline-block;
+  vertical-align: middle;
+
+  .logo-img {
+    height: 38px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.mkb-header-logo {
+  &:after {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background: #00a0d2;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 600;
+    content: attr(data-version);
+    padding: 0.16em 0.5em;
+    border-radius: 0.38em;
+    top: 0.1em;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.mkb-header-title {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 0 1em;
+}

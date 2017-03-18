@@ -1,0 +1,140 @@
+/**
+ * Devices
+ */
+
+@media (max-width: 1024px) {
+  .mkb-root {
+    .mkb-content-main {
+      &.mkb-content-main--has-sidebar {
+        display: block;
+        width: 100%;
+        float: none;
+        clear: both;
+      }
+    }
+
+    .mkb-sidebar {
+      width: 100%;
+      max-width: 100%!important; /* this is to override JS in sticky sidebar */
+      padding: 0;
+      display: block;
+      float: none;
+      clear: both;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .mkb-sidebar {
+    padding: 0;
+
+    .mkb-widget {
+      padding: 1em;
+
+      ul {
+        li {
+          margin-bottom: 1.5em;
+        }
+      }
+    }
+  }
+
+  .kb-search {
+    .kb-search__title {
+      font-size: 3em !important;
+    }
+  }
+
+  .mkb-article-extra__tags {
+    text-align: center;
+  }
+
+  .mkb-article-extra__stats {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .mkb-columns-2 .kb-topic,
+  .mkb-columns-3 .kb-topic,
+  .mkb-columns-4 .kb-topic {
+    width: 100%;
+  }
+
+  .mkb-widget-topics__list,
+  .mkb-widget-articles__list {
+    ul {
+      padding: 0;
+    }
+  }
+
+  .kb-search {
+    .kb-search__title {
+      font-size: 2em !important;
+    }
+  }
+
+  .mkb-container {
+    padding: 0 1em;
+  }
+
+  .kb-search__result-title {
+    .kb-search__results--with-topics & {
+      max-width: 100%;
+    }
+  }
+
+  .kb-search__result-topic {
+    display: none;
+  }
+
+  .kb-search__results {
+    left: 1em;
+    right: 1em;
+
+    ul {
+      li {
+        a {
+          padding: 1em 1em;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+
+  .kb-topic.kb-topic--box-view {
+    .kb-topic__inner {
+      border: none;
+    }
+  }
+
+  .mkb-root {
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.2em;
+    }
+
+    h6 {
+      font-size: 1em;
+    }
+
+    h5 {
+      font-size: 1.1em;
+    }
+
+    h4 {
+      font-size: 1.2em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+    }
+
+    h2 {
+      font-size: 1.4em;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+}

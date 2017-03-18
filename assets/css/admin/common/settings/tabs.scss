@@ -1,0 +1,72 @@
+/**
+ * Settings pages tabs
+ */
+
+.mkb-settings-tabs {
+  float: left;
+  display: block;
+  width: 14em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.mkb-settings-content {
+  float: left;
+  min-width: 60em;
+}
+
+.mkb-settings-tab {
+  display: block;
+  margin: 0 0.3em 0 0;
+  clear: both;
+  float: none;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  a {
+    display: block;
+    text-align: right;
+    font-weight: 300;
+    padding: 1em;
+    background: #fff;
+    color: #777;
+    outline: none;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+      outline: none;
+      text-decoration: none;
+      box-shadow: none;
+    }
+
+    &.active {
+      font-weight: 700;
+      background: $wp-blue;
+      color: #fff;
+    }
+  }
+}
+
+.mkb-settings-tab__icon {
+  margin: 0 0.3em;
+}
+
+.mkb-settings-tab__container {
+  display: none;
+  background: #fff;
+  padding: 2em;
+
+  &.active {
+    display: block;
+  }
+}

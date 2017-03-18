@@ -1,4 +1,4 @@
-=== MinervaKB Lite ===
+# MinervaKB Lite
 Contributors: KonstruktStudio
 Donate link: https://www.minerva-kb.com/
 Tags: knowledge base, knowledgebase, wiki, FAQ, helpdesk, support desk, search, live search, ajax
@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 MinervaKB Lite is a fully responsive knowledge base plugin for WordPress with live search. 
 
-== Description ==
+## Description
 
 ### Wordpress Knowledge Base plugin
 
@@ -70,48 +70,33 @@ It has all the features of Lite plus:
 * Regular updates and bugfixes
 * ...many more
 
-== Installation ==
+## Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/minervakb` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the MinervaKB - Settings screen to configure the plugin. Select any existing page to use as KB home.
 4. You're done, now add some content!
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Is this a limited version? =
+### Is this a limited version?
 
 No, it is a fully functional knowledge base plugin. No artificial limitations were added in order to upsell the commercial version. You can create as many articles, topics or tags as you want and use live search. Pro version has much more options and features, though.
 
-= Can I use it on commercial site? =
+### Can I use it on commercial site?
 
 Sure, absolutely.
 
-= Do you use wordpress default posts? =
+### Do you use wordpress default posts?
 
 We use custom post types functionality.
 
-= Can I export / import articles? =
+### Can I export / import articles?
 
 Sure, just use default WordPress import/export.
 
-== Screenshots ==
+## Changelog
 
-1. Knowledge base options panel.
-
-2. Home kb page
-
-3. Knowledge base topic
-
-4. Knowledge base article page
-
-== Changelog ==
-
-= 1.0 =
+### 1.0
 
 * Initial release.
-
-== Upgrade Notice ==
-
-* None so far
-

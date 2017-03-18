@@ -1,18 +1,17 @@
 # MinervaKB Lite
-Contributors: KonstruktStudio
-Donate link: https://www.minerva-kb.com/
-Tags: knowledge base, knowledgebase, wiki, FAQ, helpdesk, support desk, search, live search, ajax
-Requires at least: 3.5
-Tested up to: 4.7
-Stable tag: trunk
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+### WordPress Knowledge Base plugin
+MinervaKB Lite is a fully responsive knowledge base plugin for WordPress with live search.
 
-MinervaKB Lite is a fully responsive knowledge base plugin for WordPress with live search. 
+* Contributors: KonstruktStudio
+* Donate link: https://www.minerva-kb.com/
+* Tags: knowledge base, knowledgebase, wiki, FAQ, helpdesk, support desk, search, live search, ajax
+* Requires at least: 3.5
+* Tested up to: 4.7
+* Stable tag: trunk
+* License: GPLv2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description
-
-### Wordpress Knowledge Base plugin
 
 MinervaKB is flexible and powerful WordPress knowledge base plugin. It helps you to create a simple, yet powerful helpdesk or FAQ solution. You can add articles, organise them into topics and build a home page with AJAX live search for your customers to find their answers quickly. Use box or list layout with predefined design and styles. Dedicated search results page is also present. Using plugin as opposed to dedicated knowledge base theme also helps SEO of your main site greatly, as you don't need to move your help content to subdomain.
 
@@ -79,24 +78,24 @@ It has all the features of Lite plus:
 
 ## Frequently Asked Questions
 
-### Is this a limited version?
+#### Is this a limited version?
 
 No, it is a fully functional knowledge base plugin. No artificial limitations were added in order to upsell the commercial version. You can create as many articles, topics or tags as you want and use live search. Pro version has much more options and features, though.
 
-### Can I use it on commercial site?
+#### Can I use it on commercial site?
 
 Sure, absolutely.
 
-### Do you use wordpress default posts?
+#### Do you use wordpress default posts?
 
 We use custom post types functionality.
 
-### Can I export / import articles?
+#### Can I export / import articles?
 
 Sure, just use default WordPress import/export.
 
 ## Changelog
 
-### 1.0
+#### 1.0
 
 * Initial release.

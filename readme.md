@@ -1,6 +1,6 @@
 # MinervaKB Lite
 ### WordPress Knowledge Base plugin
-MinervaKB Lite is a fully responsive knowledge base plugin for WordPress with live search. <a href="http://demo-lite.minerva-kb.com/" target="_blank" title="Minerva KB WordPress Knowledge Base demo">Minerva KB WordPress Knowledge Base <strong>demo</strong></a>
+MinervaKB Lite is a fully responsive knowledge base plugin for WordPress with live search. PRO version available here: <a href="https://www.minerva-kb.com/" target="_blank" title="wordpress knowledge base plugin">wordpress knowledge base plugin</a>. Lite version demo: <a href="http://demo-lite.minerva-kb.com/" target="_blank" title="Minerva KB WordPress Knowledge Base demo">Minerva KB WordPress Knowledge Base <strong>demo</strong></a>
 
 * Contributors: KonstruktStudio
 * Donate link: https://www.minerva-kb.com/

@@ -94,6 +94,18 @@ We use custom post types functionality.
 
 Sure, just use default WordPress import/export.
 
+## What else?
+
+If you're interested in growing your business and improving your customer experience, you may read the most popular articles from <a href="https://www.minerva-kb.com/blog">our blog</a>:
+
+<ul>
+<li><a href="https://www.minerva-kb.com/6-reasons-why-customer-support-is-crucial-for-your-business/">6 Reasons Why Customer Support Is Crucial For Your Business</li>
+<li><a href="https://www.minerva-kb.com/wordpress-knowledge-base-plugin-vs-theme/">WordPress Knowledge Base Plugin vs Theme</li>
+<li><a href="https://www.minerva-kb.com/case-study-how-launchpad-uses-knowledge-base-to-improve-user-experience/">Case Study: How LaunchPad uses Knowledge Base to improve user experience</li>
+<li><a href="https://www.minerva-kb.com/wpml-support-added-knowledge-base/">WPML support added to knowledge base</li>
+<li><a href="https://www.minerva-kb.com/introducing-shortcode-builder/">Introducing Shortcode Builder</li>
+</ul>
+
 ## Changelog
 
 #### 1.0
